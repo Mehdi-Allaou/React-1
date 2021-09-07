@@ -1,4 +1,4 @@
-# log.txt
+log.txt
 .env
 # ignorerar en specifik fil
 
@@ -6,4 +6,5 @@
 node_modules
 # ignorerar en hel mapp
 
-*.txt
+# *.txt
+# ignorerar alla .txt filer
