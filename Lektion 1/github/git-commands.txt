@@ -21,3 +21,6 @@
 
 # När vi vill hämta hem ett helt nytt projekt (Som vi INTE har sen tidigare)
   git clone https://github.com/dinrepoadress.git
+
+# När vi vill hämta hem de senaste uppdateringarna (vi har projektet sen tidigare)
+  git pull
