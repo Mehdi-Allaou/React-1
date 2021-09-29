@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* li{
+            list-style-type: none;
+            max-width: 200px;
+            padding: 8px;
+            margin: 8px auto;
+            background: #eee;
+            border: 1px dotted #ddd;
+        } */
+/* 
+        .box {
+            width: 200px;
+            height: 200px;
+            margin: 10px 0;
+            background: #eee;
+            text-align: center;
+            padding: 20px;
+        } */
+
+        body{
+            background: #eee;
+        }
+        form{
+            max-width: 200px;
+            margin: 40px auto;
+            background: white;
+            padding: 10px;
+        }
+        input{
+            display: block;
+            margin: 10px auto;
+            padding: 4px;
+        }
+        .success{
+            border: 10px solid limegreen;
+        }
+        .error {
+            border: 5px solid crimson;
+        }
+
+    </style>
+    <title>Interactive browser</title>
+</head>
+<body>
+    <!-- <p class="copy-me">Lorem ipsum dol dol dol dol dol dol dol</p>
+    <div class="box">Move your mouse around</div>
+
+    <p class="copy-me">Lorem ipsum dol dol dol dol dol dol dol</p>
+    <p class="copy-me">Lorem ipsum dol dol dol dol dol dol dol</p>
+    <p class="copy-me">Lorem ipsum dol dol dol dol dol dol dol</p>
+    <p class="copy-me">Lorem ipsum dol dol dol dol dol dol dol</p>
+    <p class="copy-me">Lorem ipsum dol dol dol dol dol dol dol</p>
+    <p class="copy-me">Lorem ipsum dol dol dol dol dol dol dol</p>
+    <p class="copy-me">Lorem ipsum dol dol dol dol dol dol dol</p>
+    <p class="copy-me">Lorem ipsum dol dol dol dol dol dol dol</p>
+    <p class="copy-me">Lorem ipsum dol dol dol dol dol dol dol</p>
+    <p class="copy-me">Lorem ipsum dol dol dol dol dol dol dol</p>
+    <p class="copy-me">Lorem ipsum dol dol dol dol dol dol dol</p>
+    <p class="copy-me">Lorem ipsum dol dol dol dol dol dol dol</p>
+    <p class="copy-me">Lorem ipsum dol dol dol dol dol dol dol</p>
+    <p class="copy-me">Lorem ipsum dol dol dol dol dol dol dol</p>
+    <p class="copy-me">Lorem ipsum dol dol dol dol dol dol dol</p> --> 
+    <!-- <h1 id="page-title">the DOM</h1>
+
+    <div>
+        <p>Hello, world</p>
+        <p>lorem ipsum</p>
+        <p class="error">this is an error message</p>
+    </div>
+
+    <div class="error">this is another error</div>
+
+    <div class="content">
+        <p>this is the content</p>
+    <!-- </div> 
+    
+
+<!-- 
+    <h1>The DOM</h1>
+
+    <a href="http://www.google.com">Link to google</a>
+
+    <p class="error">lorem ipsum</p>  -->
+<!-- 
+    <h1 style="color: orange;">THE DOM</h1> -->
+
+    <!-- <h1 class="title">THE DOM</h1> -->
+
+   <!-- <p>lorem error ipsum</p>
+   <p>lorem success ipsum</p>
+   <p>lorem ipsum lorem</p>
+   <p>lorem ipsum success</p>
+   <p>error lorem ipsum</p>
+   <p>lorem ipsum lorem</p>
+   <p>lorem ipsum error</p>
+   <p>success lorem ipsum</p> -->
+
+   <!-- <article>
+       <p>previous sibbling</p>
+       <h2>article title</h2>
+       <p>error lorem ipsum</p>
+       <p>lorem ipsum lorem</p>
+       <p>lorem ipsum error</p>
+       <div>written by the net</div>
+   </article> -->
+<!-- 
+   <h1>Todos</h1>
+   <ul>
+       <li>buy milk</li>
+       <li>buy book</li>
+       <li>buy guitar</li>
+       <li>buy billys</li>
+   </ul>
+
+   <button>click me, add new</button> -->
+
+
+   <!-- <button>click me</button>
+
+   <div class="popup-wrapper">
+       <div class="popup">
+           <div class="popup-close">X</div>
+           <div class="popup-content">
+               <h2>NINJA SALE!</h2>
+               <p>50% off al ninja clothing, don't miss out</p>
+               <a href="#">View clothing</a>
+           </div>
+       </div>
+   </div> -->
+
+   <form class="signup-form">
+       <input type="text" id="username" placeholder="username">
+       <input type="submit" value="submit">
+       <div class="feedback"></div>
+   </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
