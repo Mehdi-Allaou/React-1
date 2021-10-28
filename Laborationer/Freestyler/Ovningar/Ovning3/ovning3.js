@@ -203,13 +203,44 @@
 // console.log(alSmith.sportsTeam);
 
 
-const formatNumber = number => {
-  let pureNr = String(Math.floor(number));
+// const formatNumber = number => {
+//   let pureNr = String(Math.floor(number));
   
-  for (let i = pureNr.length - 3; i > 0; i -= 3) {
-    pureNr = pureNr.slice(0, i) + ',' + pureNr.slice(i);
-  }
-  return pureNr;
-  };
+//   for (let i = pureNr.length - 3; i > 0; i -= 3) {
+//     pureNr = pureNr.slice(0, i) + ',' + pureNr.slice(i);
+//   }
+//   return pureNr;
+//   };
   
-  console.log(formatNumber()); 
+//   console.log(formatNumber()); 
+
+
+
+
+
+const brainstormDinner = () => {
+  return new Promise((resolve, reject) => {
+  console.log(`I have to decide what's for dinner...`)
+  setTimeout(() => {
+    console.log('Should I make salad...?');
+    setTimeout(() => {
+      console.log('Should I make ramen...?');
+      setTimeout(() => {
+        console.log('Should I make eggs...?');
+        setTimeout(() => {
+          console.log('Should I make chicken...?');
+          resolve('beans');
+        }, 1000);
+      }, 1000);
+    }, 1000);
+  }, 1000);
+});
+};
+
+async function announceDinner() {
+  // Write your code below:
+  let meal = await brainstormDinner();
+  console.log(`I'm going to make ${meal} for dinner.`); 
+}
+
+announceDinner();
