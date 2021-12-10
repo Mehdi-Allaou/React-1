@@ -1,0 +1,25 @@
+// export default function Title(props) {
+//   return (
+//     <div>
+//       <h1 className="title">{props.title}</h1>
+//       <br />
+//       <h2 className="subtitle">{props.subtitle}</h2>
+//     </div>
+//   )
+// }
+
+// import React from "react"
+
+
+import './Title.css'
+
+
+export default function Title({ title, subtitle }) {
+  return (
+    <div className="title-block card">
+      <h1 className="title">{title}</h1>
+      <br />
+      <h2 className="subtitle">{subtitle}</h2>
+    </div>
+  )
+}
